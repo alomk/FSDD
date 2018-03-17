@@ -1,0 +1,86 @@
+{
+  "project_info": {
+    "project_number": "645899371811",
+    "firebase_url": "https://food-store-delivery-database.firebaseio.com",
+    "project_id": "food-store-delivery-database",
+    "storage_bucket": "food-store-delivery-database.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:645899371811:android:5eb5a2d6e4cb0327",
+        "android_client_info": {
+          "package_name": "com.fsdd.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "645899371811-gbam8k9puj8phdpp1isq6b61uskjf7ev.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCo_V3U8zjGkPe_gK3llGVwbAuoajbfRao"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:645899371811:android:fddfef9624d3fff5",
+        "android_client_info": {
+          "package_name": "android.fsdd.com.food_store_delivery_database"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "645899371811-eh09gj2df7eg8qh65hoia2hvke4gouh0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "android.fsdd.com.food_store_delivery_database",
+            "certificate_hash": "59fef338bd5e5b28ae32b9ce57f023993382b346"
+          }
+        },
+        {
+          "client_id": "645899371811-gbam8k9puj8phdpp1isq6b61uskjf7ev.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCo_V3U8zjGkPe_gK3llGVwbAuoajbfRao"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "645899371811-gbam8k9puj8phdpp1isq6b61uskjf7ev.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
