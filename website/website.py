@@ -17,9 +17,9 @@ def fresh():
     return render_template('fresh.html')
 
 @app.route("/deliver")
-def fresh():
+def deliver():
     return render_template('deliver.html')
 
 @app.route("/stock")
-def fresh():
+def stock():
     return render_template('stock.html')
