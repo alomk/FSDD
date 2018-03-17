@@ -45,6 +45,10 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, StoresActivity.class);
         startActivity(intent);
     }
+    public void goToAbout(View view) {
+        Intent intent = new Intent(this, AboutActivity.class);
+        startActivity(intent);
+    }
 
 
 }

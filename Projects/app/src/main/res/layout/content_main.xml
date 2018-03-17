@@ -32,6 +32,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:backgroundTint="@color/colorPrimary"
+        android:onClick="goToAbout"
         android:text="About"
         android:textColor="@color/textColor"
         android:textSize="18sp"
