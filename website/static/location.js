@@ -21,22 +21,10 @@ $('.submit').on('click', function (e) {
     alert("Please enter a store name");
     return;
   }
-  if (document.getElementById("productname").value == "") {
-    alert("Please enter a product name");
-    return;
-  }
-  if (document.getElementById("Price").value == "") {
-    alert("Please enter the price");
-    return;
-  }
-  if (document.getElementById("Stock").value == "") {
-    alert("Please enter the stock");
-    return;
-  }
   e.preventDefault();
   var updates = {};
-  user_id = document.getElementById("productname").value;
+  user_id = "Location";
   updates[user_id] = $('form').getFormData();
-  var path = 'Supermarkets/' + document.getElementById("storename").value + '/Delivery/';
+  var path = 'Supermarkets/' + document.getElementById("storename").value;
   fb.database().ref().child(path).update(updates);
 });

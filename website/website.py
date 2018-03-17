@@ -31,9 +31,9 @@ def fresh():
 def deliver():
     return render_template('expire.html')
 
-@app.route("/stock")
+@app.route("/location")
 def stock():
-    return render_template('stock.html')
+    return render_template('location.html')
 
 @app.route('/login', methods=['GET', 'POST'])
 def login():

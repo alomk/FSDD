@@ -25,11 +25,11 @@ $('.submit').on('click', function (e) {
     alert("Please enter a product name");
     return;
   }
-  if (document.getElementById("price").value == "") {
+  if (document.getElementById("Price").value == "") {
     alert("Please enter the price");
     return;
   }
-  if (document.getElementById("stock").value == "") {
+  if (document.getElementById("Stock").value == "") {
     alert("Please enter the stock");
     return;
   }
