@@ -1,7 +1,17 @@
 from flask import Flask, render_template
 from flask_bootstrap import Bootstrap
+from flask_login import LoginManager
 
 app = Flask(__name__)
+
+login_manager = LoginManager()
+login_manager.init_app(app)
+login_manager.login_view = "users.login"
+login_manager.login_message = u"hello"
+
+@login_manager.user_loader
+def load_user(user_id):
+    return User.get(user_id)
 
 @app.route("/")
 @app.route("/index")
@@ -23,3 +33,7 @@ def deliver():
 @app.route("/stock")
 def stock():
     return render_template('stock.html')
+
+@app.route('/login', methods=['GET', 'POST'])
+def login():
+    return render_template('login.html')
