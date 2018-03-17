@@ -17,6 +17,9 @@ body {
 .our-white{
   color: #DCE1DE !important;
 }
+.our-halfway-green {
+  color: #258461 !important;
+}
 .bronx-science-green-bg {
   background-color: #00674A !important;
 }
@@ -32,9 +35,20 @@ body {
 .our-white-bg {
   background-color: #DCE1DE !important;
 }
+.our-halfway-green-bg {
+  background-color: #258461 !important;
+}
 .dropdown-item:focus, .dropdown-item:hover{
   background-color: #49A078 !important;
 }
 .form-corners {
     border-radius: 30px;
+}
+div.b {
+    width: 700px;
+    margin: 0 auto;
+}
+div.a {
+    width: 800px;
+    margin: 0 auto;
 }
