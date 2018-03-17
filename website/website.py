@@ -27,9 +27,9 @@ def search():
 def fresh():
     return render_template('fresh.html')
 
-@app.route("/deliver")
+@app.route("/expire")
 def deliver():
-    return render_template('deliver.html')
+    return render_template('expire.html')
 
 @app.route("/stock")
 def stock():

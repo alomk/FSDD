@@ -35,3 +35,6 @@ body {
 .dropdown-item:focus, .dropdown-item:hover{
   background-color: #49A078 !important;
 }
+.form-corners {
+    border-radius: 30px;
+}
