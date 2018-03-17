@@ -15,6 +15,7 @@ def load_user(user_id):
 
 @app.route("/")
 @app.route("/index")
+@app.route("/logout")
 def index():
     return render_template('index.html')
 
@@ -37,3 +38,7 @@ def stock():
 @app.route('/login', methods=['GET', 'POST'])
 def login():
     return render_template('login.html')
+
+@app.errorhandler(404)
+def page_not_found(e):
+    return render_template('404.html'), 404

@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+body {
+  font-family: 'Raleway', sans-serif;
+}
 .bronx-science-green {
   color: #00674A !important;
 }
@@ -27,4 +31,7 @@
 }
 .our-white-bg {
   background-color: #DCE1DE !important;
+}
+.dropdown-item:focus, .dropdown-item:hover{
+  background-color: #49A078 !important;
 }

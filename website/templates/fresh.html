@@ -4,6 +4,47 @@
   <!-- display normal stuff -->
 {% else %}
 <br>
-  <h1 class="text-center">Please login</h1>
+  <!-- <h1 class="text-center">Please login</h1> -->
+  <div class="container text-center bronx-science-green-bg">
+  <div class="form our-lightest-green">
+    <div class="form-group">
+      <label for="activityCatagory">
+        <p>Location</p>
+      </label>
+      <select class="form-control" id="activityCatagory" name="Competitions">
+        <option value="Hudson Valley">Hudson Valley</option>
+        <option value="NYC">NYC</option>
+        <option value="Championships">Championships</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="teamnumber">
+        <p>Team Number</p>
+      </label>
+      <textarea class="form-control" id="teamnumber" rows="1" name="Team #"></textarea>
+    </div>
+    <form>
+      <div class="form-group">
+        <label for="balls">
+          <p>Balls Shot</p>
+        </label>
+        <textarea class="form-control" id="balls" rows="1" name="Balls"></textarea>
+      </div>
+      <div class="form-group">
+        <label for="gears">
+          <p>Gears Placed</p>
+        </label>
+        <textarea class="form-control" id="gears" rows="1" name="Gears"></textarea>
+      </div>
+      <div class="form-group">
+        <label for="Climbed">
+          <p>Climbed?</p>
+        </label>
+        <select class="form-control" id="Climbed" name="Climbed">
+          <option value="1">Yes</option>
+          <option value="0">No</option>
+        </select>
+      </div>
+</form>
 {% endif %}
 {% endblock %}

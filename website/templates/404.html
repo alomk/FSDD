@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block title %}Page Not Found{% endblock %}
+{% block body %}
+<div class="container text-center">
+  <br>
+  <h1>404 - Page Not Found</h1>
+  <img src="{{url_for('static', filename='bean.jpg')}}"></img>
+  <br>
+  <br>
+  <p>What you were looking for is just not there.
+  <br>
+  <br>
+  <button class="btn btn-success" href="/">Come back</button>
+</div>
+{% endblock %}
