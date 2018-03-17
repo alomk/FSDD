@@ -35,8 +35,7 @@ $('.submit').on('click', function (e) {
   }
   e.preventDefault();
   var updates = {};
-  user_id = document.getElementById("productname").value;
-  updates[user_id] = $('form').getFormData();
-  var path = 'Supermarkets/' + document.getElementById("storename").value + '/Delivery/';
+  updates[document.getElementById("productname").value] = $('form').getFormData();
+  var path = 'Supermarkets/' + document.getElementById("storename").value + '/Expiration/';
   fb.database().ref().child(path).update(updates);
 });

@@ -6,7 +6,7 @@
 <br>
 <!-- <h1 class="text-center">Please login</h1> -->
 <div class="container text-center bronx-science-green-bg form-corners">
-  <h1 class="our-lightest-green">Fresh Deliveries</h1>
+<h1 class="our-lightest-green">Fresh Deliveries</h1>
 <div class="form our-lightest-green">
   <div class="form-group">
     <label for="storename">
@@ -21,6 +21,12 @@
     <textarea class="form-control" id="productname" rows="1" name="Team #"></textarea>
   </div>
   <form>
+    <div class="form-group">
+      <label for="date">
+        <p>Date</p>
+      </label>
+      <textarea class="form-control" id="date" rows="1" name="date"></textarea>
+    </div>
     <div class="form-group">
       <label for="price">
         <p>Price</p>
@@ -38,6 +44,8 @@
     <br>
   </form>
 </div>
+<script src="https://www.gstatic.com/firebasejs/3.0.2/firebase.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.js"></script>
 <script src="{{ url_for('static',filename='fresh.js') }}"></script>
 {% endif %}
 {% endblock %}
