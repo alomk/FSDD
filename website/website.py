@@ -11,3 +11,15 @@ def index():
 @app.route("/search", methods=['GET', 'POST'])
 def search():
     return render_template('search.html')
+
+@app.route("/fresh")
+def fresh():
+    return render_template('fresh.html')
+
+@app.route("/deliver")
+def fresh():
+    return render_template('deliver.html')
+
+@app.route("/stock")
+def fresh():
+    return render_template('stock.html')
