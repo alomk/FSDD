@@ -1,10 +1,13 @@
 package android.fsdd.com.food_store_delivery_database;
 
+        import android.app.Activity;
         import android.app.ListActivity;
+        import android.content.Intent;
         import android.support.v7.app.AppCompatActivity;
         import android.os.Bundle;
         import android.util.Log;
         import android.view.View;
+        import android.widget.AdapterView;
         import android.widget.ArrayAdapter;
         import android.widget.ListView;
 
@@ -34,6 +37,20 @@ public class StoresActivity extends ListActivity {
         listView = (ListView) findViewById(android.R.id.list);
         listView.setAdapter(adapter);
 
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener(){
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                toNewClass(view);
+            }
+        });
+
+
+    }
+
+    public void toNewClass(View view) {
+        Intent intent = new Intent(this, MainActivity.class);
+        //based on item add info to intent
+        startActivity(intent);
     }
 
     public void refreshList(View view) {

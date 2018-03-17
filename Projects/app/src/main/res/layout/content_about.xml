@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="android.fsdd.com.food_store_delivery_database.AboutActivity"
+    tools:showIn="@layout/activity_about">
+
+    <TextView
+        android:id="@+id/aboutTitleText2"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_marginTop="8dp"
+        android:text="Why Should Customers Choose Us?"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@color/textColor"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/aboutText" />
+
+    <TextView
+        android:id="@+id/aboutText"
+        android:layout_width="349dp"
+        android:layout_height="202dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/textColor"
+        android:text="Grocery Stores in America throw away 13.3 pounds of food, or about a third of the food made. In order to be able to sell their stock instead of throwing it out, businesses can use GroPro to notify consumers about food that is almost expired in order to allow customers to buy the food for a reduced price. This will allow more revenue to be made, and less stock to be wasted."
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.526"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/aboutTitleText" />
+
+    <TextView
+        android:id="@+id/aboutTitleText"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="Why Should Businesses Choose Us?"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@color/textColor"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="8dp" />
+
+    <TextView
+        android:id="@+id/aboutText2"
+        android:layout_width="349dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/textColor"
+        android:text="Consumers on a budget would love GroPro because they can save money by buying produce for a reduced price. Consumers looking for fresh produce are also able to find out when fresh produce has been delivered to the story to be able to get it. "
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/aboutTitleText2" />
+</android.support.constraint.ConstraintLayout>
